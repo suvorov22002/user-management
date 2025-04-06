@@ -41,8 +41,8 @@ public class OpenApiConfig {
                                 .name("Apache 2.0")
                                 .url("http://springdoc.org")))
                 .addServersItem(new Server().url(localUrlPath).description("Development server"))
-                .addServersItem(new Server().url(integUrlPath).description("Production server"));
-                /*
+                .addServersItem(new Server().url(integUrlPath).description("Production server"))
+
                 .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
                 .components(new Components()
                         .addSecuritySchemes("bearerAuth",
@@ -52,6 +52,6 @@ public class OpenApiConfig {
                                         .scheme("bearer")
                                         .bearerFormat("JWT")));
 
-                 */
+
     }
 }
