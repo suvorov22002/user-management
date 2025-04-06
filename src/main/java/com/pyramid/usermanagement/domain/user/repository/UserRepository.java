@@ -1,6 +1,6 @@
-package com.example.usermanagement.domain.user.repository;
+package com.pyramid.usermanagement.domain.user.repository;
 
-import com.example.usermanagement.domain.user.model.AppUser;
+import com.pyramid.usermanagement.domain.user.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

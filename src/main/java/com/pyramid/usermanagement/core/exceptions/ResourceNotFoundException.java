@@ -1,4 +1,4 @@
-package com.example.usermanagement.core.exceptions;
+package com.pyramid.usermanagement.core.exceptions;
 
 /**
  * Created by Suvorov Vassilievitch

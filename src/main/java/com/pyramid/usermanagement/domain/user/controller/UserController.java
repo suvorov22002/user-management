@@ -1,9 +1,9 @@
-package com.example.usermanagement.domain.user.controller;
+package com.pyramid.usermanagement.domain.user.controller;
 
-import com.example.usermanagement.domain.user.dto.UserCreateDTO;
-import com.example.usermanagement.domain.user.dto.UserDTO;
-import com.example.usermanagement.domain.user.dto.UserUpdateDTO;
-import com.example.usermanagement.domain.user.services.UserService;
+import com.pyramid.usermanagement.domain.user.dto.UserCreateDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserUpdateDTO;
+import com.pyramid.usermanagement.domain.user.services.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

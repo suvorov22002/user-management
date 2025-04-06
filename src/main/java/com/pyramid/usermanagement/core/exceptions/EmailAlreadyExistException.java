@@ -1,4 +1,4 @@
-package com.example.usermanagement.core.exceptions;
+package com.pyramid.usermanagement.core.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

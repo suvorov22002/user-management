@@ -1,4 +1,4 @@
-package com.example.usermanagement.domain.user.model;
+package com.pyramid.usermanagement.domain.user.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

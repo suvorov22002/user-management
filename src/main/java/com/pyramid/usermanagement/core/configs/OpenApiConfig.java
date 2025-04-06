@@ -1,4 +1,4 @@
-package com.example.usermanagement.core.configs;
+package com.pyramid.usermanagement.core.configs;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

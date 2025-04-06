@@ -1,13 +1,13 @@
-package com.example.usermanagement.domain.user.services.implement;
+package com.pyramid.usermanagement.domain.user.services.implement;
 
-import com.example.usermanagement.core.exceptions.EmailAlreadyExistException;
-import com.example.usermanagement.core.exceptions.ResourceNotFoundException;
-import com.example.usermanagement.domain.user.dto.UserCreateDTO;
-import com.example.usermanagement.domain.user.dto.UserDTO;
-import com.example.usermanagement.domain.user.dto.UserUpdateDTO;
-import com.example.usermanagement.domain.user.model.AppUser;
-import com.example.usermanagement.domain.user.repository.UserRepository;
-import com.example.usermanagement.domain.user.services.UserService;
+import com.pyramid.usermanagement.core.exceptions.EmailAlreadyExistException;
+import com.pyramid.usermanagement.core.exceptions.ResourceNotFoundException;
+import com.pyramid.usermanagement.domain.user.dto.UserCreateDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserUpdateDTO;
+import com.pyramid.usermanagement.domain.user.model.AppUser;
+import com.pyramid.usermanagement.domain.user.repository.UserRepository;
+import com.pyramid.usermanagement.domain.user.services.UserService;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,8 @@
-package com.example.usermanagement.domain.user.services;
+package com.pyramid.usermanagement.domain.user.services;
 
-import com.example.usermanagement.domain.user.dto.UserCreateDTO;
-import com.example.usermanagement.domain.user.dto.UserDTO;
-import com.example.usermanagement.domain.user.dto.UserUpdateDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserCreateDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserDTO;
+import com.pyramid.usermanagement.domain.user.dto.UserUpdateDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
