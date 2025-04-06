@@ -104,7 +104,7 @@ The project includes:
 ### Docker
 Example Dockerfile for backend
    ```bash
-   FROM eclipse-temurin:17-jdk-jammy
+   FROM eclipse-temurin:21-jdk-jammy
    WORKDIR /app
    COPY target/user-management-0.0.1-SNAPSHOT.jar app.jar
    ENTRYPOINT ["java", "-jar", "app.jar"]
