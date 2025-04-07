@@ -30,6 +30,10 @@ A comprehensive customer management system featuring:
   - Create, read, update, and delete customers
   - Paginated listing of cutomers
   - Search by ID or email
+- **Security**:
+  - JWT authentication
+  - Role-based authorization
+  - Secure password storage
 - **Data Validation**:
   - Entity-level validation
   - DTO-level validation
@@ -42,8 +46,9 @@ A comprehensive customer management system featuring:
 - **Framework**: Spring Boot 3.4.4
 - **Language**: Java 21
 - **Database**: H2 (configurable to PostgreSQL/MySQL)
-- **Documentation**: SpringDoc OpenAPI 2.8.3
-- **Build**: MMaven
+- **Security**: Spring Security, JWT
+- **Documentation**: SpringDoc OpenAPI 2.8.6
+- **Build**: Maven
 
 ## Prerequisites
 
