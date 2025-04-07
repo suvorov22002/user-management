@@ -81,7 +81,7 @@ public class UserController {
     @GetMapping("/{id}")
     @Operation(summary = "Get user by ID", description = "Returns a user based on the ID",
                 security = @SecurityRequirement(name = "bearerAuth"))
-    @ApiResponse(responseCode = "200", description = "Succeful operation")
+    @ApiResponse(responseCode = "200", description = "Successful operation")
     @ApiResponse(responseCode = "404", description = "User not found")
     public ResponseEntity<UserDTO> getUserById(@PathVariable Long id) {
 
