@@ -125,8 +125,12 @@ Example Dockerfile for backend
     │   │   │    │    │   ├── dto/         # Data Transfer Objects
     │   │   │    │    │   ├── model/       # JPA entities
     │   │   │    │    │   ├── repository/  # JPA repositories       
-    │   │   │    │    │   ├── services/    # Business logic
-    │   │   │    │      
+    │   │   │    │    │   └── services/    # Business logic
+    │   │   │    │    └── security/
+    │   │   │    │        ├── controller/
+    │   │   │    │        ├── jwt/
+    │   │   │    │        ├── model/
+    │   │   │    │        └── repository/
     │   │   │    └── UserManagementApplication.java
     │   │   └── resources/
     │   │       ├── static/ 
