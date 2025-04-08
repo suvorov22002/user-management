@@ -1,4 +1,4 @@
-package com.pyramid.usermanagement.domain.user.services.implement;
+package com.pyramid.usermanagement.domain.user.services;
 
 import com.pyramid.usermanagement.core.exceptions.ResourceNotFoundException;
 import com.pyramid.usermanagement.domain.user.dto.UserCreateDTO;
@@ -6,6 +6,7 @@ import com.pyramid.usermanagement.domain.user.dto.UserDTO;
 import com.pyramid.usermanagement.domain.user.dto.UserUpdateDTO;
 import com.pyramid.usermanagement.domain.user.model.AppUser;
 import com.pyramid.usermanagement.domain.user.repository.UserRepository;
+import com.pyramid.usermanagement.domain.user.services.implement.UserServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -15,7 +16,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.http.ResponseEntity;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
